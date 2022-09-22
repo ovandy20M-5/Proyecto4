@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(to right, #00aaf8 0%, #776716 100%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  h1 {
+    color: rgb(145, 131, 131);
+  }
+  
+  .pokemon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  
+  .pokemon-block,
+  .pokemon-block-back {
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgb(240, 202, 202);
+    box-shadow: 6px 20px 10px rgb(53, 38, 38)  }
+
+    .pokemon-block:hover{
+        box-shadow: 6px 20px 10px blue;
+      }
+
+  .pokemon-block p {
+    margin: 5px;
+  }
+  
+  .name {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
